@@ -1,0 +1,54 @@
+.jumbotron {
+    height: 1000px;
+    background-image: linear-gradient(to right bottom, 
+                    rgba(255, 255, 255, 0.6), 
+                    rgba(255,255,255,0.8)),
+                      url("https://res.cloudinary.com/chu327/image/upload/v1533690366/portfolio/markus-spiske-768763-unsplash.jpg");
+    /* background-position: absolute; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading-name {
+    margin-top: 300px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 60px;
+    margin-bottom:0;
+    text-transform: uppercase;
+}
+
+.heading-description {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    /* margin-top: 0; */
+}
+
+#button-portfolio {
+    background-color: black;
+    height: 40px;
+    width: 160px;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    transform: scale(1, 1.2);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#button-portfolio:focus {
+    outline: 0;
+}
+#button-portfolio:hover{
+    background-color: inherit;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    color: black;
+}
