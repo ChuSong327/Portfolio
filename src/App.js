@@ -4,6 +4,7 @@ import './App.css';
 import Nav from "./nav/Nav";
 import Jumbotron from "./jumbotron/Jumbotron";
 import About from "./about-me/About";
+import Project from "./project/Project";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Nav/>
         <Jumbotron/>
         <About/>
+        <Project/>
       </div>
     );
   }

@@ -1,0 +1,47 @@
+.project {
+    background-color:rgb(245, 245, 245);
+    height: 35rem;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: 0.7px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.project-item {
+    margin: auto;
+}
+
+
+.project-image {
+    height: 12rem;
+    width: 12rem;
+    cursor: pointer;
+}
+
+.project-image:hover {
+    transform: translateY(-2px)
+}
+
+.project-name {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transform: scale(1, 1.1);
+    cursor: pointer;
+}
