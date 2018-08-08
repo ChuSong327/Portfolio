@@ -4,7 +4,7 @@
                     rgba(255, 255, 255, 0.6), 
                     rgba(255,255,255,0.8)),
                       url("https://res.cloudinary.com/chu327/image/upload/v1533690366/portfolio/markus-spiske-768763-unsplash.jpg");
-    /* background-position: absolute; */
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
