@@ -1,31 +1,33 @@
 .project {
     background-color:rgb(245, 245, 245);
-    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .project-title {
     font-size: 2.5rem;
+    font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
     color: black;
-    text-align: center;
-    padding-top: 4rem;
+    text-align: right;
     letter-spacing: 0.7px;
+    margin-top: 7rem;
+    padding-bottom: 8rem;
 }
 
 .project-list {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-start;
     list-style: none;
     flex-wrap: wrap;
-    padding-top: 2rem;
+    padding: 0;
+    margin-bottom: 8rem;
 }
-
-.project-item {
-    margin: auto;
-}
-
 
 .project-image {
     height: 12rem;
@@ -44,4 +46,11 @@
     letter-spacing: 1px;
     transform: scale(1, 1.1);
     cursor: pointer;
+    font-family: 'Heebo', sans-serif;
 }
+
+.project-link {
+    text-decoration: none;
+    color: black;
+}
+
