@@ -1,5 +1,6 @@
 .project {
-    background-color:rgb(245, 245, 245);
+    /* background-color:rgb(245, 245, 245); */
+    background-color:#EEEEEE;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -14,7 +15,7 @@
     text-align: right;
     letter-spacing: 0.7px;
     margin-top: 7rem;
-    padding-bottom: 8rem;
+    padding-bottom: 3rem;
 }
 
 .project-list {
@@ -26,17 +27,43 @@
     list-style: none;
     flex-wrap: wrap;
     padding: 0;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
+}
+
+.project-item {
+    background-color: white;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+    position: relative;
+    width: 25rem;
+    height: 22rem;
+    margin-bottom: 2rem;
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.project-item:hover .overlay {
+    opacity: 1;
+}
+
+.project-link {
+    text-decoration: none;
+    color: black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .project-image {
     height: 12rem;
     width: 12rem;
     cursor: pointer;
-}
-
-.project-image:hover {
-    transform: translateY(-2px)
 }
 
 .project-name {
@@ -47,10 +74,32 @@
     transform: scale(1, 1.1);
     cursor: pointer;
     font-family: 'Heebo', sans-serif;
+    color:black;
 }
 
-.project-link {
-    text-decoration: none;
-    color: black;
+.overlay {
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    position: absolute;
 }
+
+.overlay-text {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    font-weight: 300;
+}
+
+
 
