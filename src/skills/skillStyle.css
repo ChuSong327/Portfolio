@@ -1,0 +1,37 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0 9rem 0;
+}
+
+.skills-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.8px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    transform: scale(1.1, 0.9);
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    padding-top: 2rem;
+}
+
+.skills-image {
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.skills-item {
+    font-size: 5rem;
+    padding: 2rem;
+}

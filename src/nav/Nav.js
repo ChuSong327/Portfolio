@@ -40,20 +40,26 @@ class Nav extends Component {
                                         <button id="button-close" type="button" onClick={ this.handleMenuClose }>
                                           &times;
                                         </button>
-                                        <ul className="navbar-list">
-                                          <li className="navbar-list-item">
-                                            HOME
-                                          </li>
-                                          <li className="navbar-list-item">
+                                        <div className="navbar-list">
+                                            <a className="navbar-button">
+                                              HOME
+                                            </a>  
+                                          <a className="navbar-button">
                                             ABOUT
-                                          </li>
-                                          <li className="navbar-list-item">
+                                          </a>
+                                          <a className="navbar-button">
+                                            Education
+                                          </a>
+                                          <a className="navbar-button">
                                             PROJECT
-                                          </li>
-                                          <li className="navbar-list-item">
-                                            TECH STACK
-                                          </li>
-                                      </ul>
+                                          </a>
+                                          <a className="navbar-button">
+                                            Skills
+                                          </a>
+                                          <a className="navbar-button">
+                                            contact
+                                          </a>
+                                        </div>
                                       </nav>
                                     : null
               }

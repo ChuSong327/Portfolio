@@ -10,10 +10,10 @@ class Contact extends Component {
                 <div className="contact-info">
                     <div className="contact-social">
                         <a href="https://www.linkedin.com/in/chuchusong/" target="_blank" rel="noopener noreferrer">
-                            <img className="contact-image" src="https://res.cloudinary.com/chu327/image/upload/v1533744721/social%20media%20icon/Linkedin.png" alt="LinkedIn"/>
+                            <i className="contact-linkedIn fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://github.com/ChuSong327" target="_blank" rel="noopener noreferrer">
-                            <img className="contact-image" src="https://res.cloudinary.com/chu327/image/upload/v1533744716/social%20media%20icon/Github.png" alt="Github"/>
+                        <a className="contact-link" href="https://github.com/ChuSong327" target="_blank" rel="noopener noreferrer">
+                            <i className="contact-image devicon-github-plain"></i>
                         </a>
                     </div>
                     <div className="contact-detail">

@@ -1,21 +1,29 @@
 .project {
-    /* background-color:rgb(245, 245, 245); */
-    background-color:#EEEEEE;
+    background-color:rgb(0,0,0);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-image: linear-gradient(to bottom right, 
+                    rgba(0,0,0,0.7), 
+                    rgba(0,0,0,0.8)),
+                      url("https://res.cloudinary.com/chu327/image/upload/v1533766850/portfolio/rohit-tandon-62046-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 3rem 0 8rem 0;
 }
 
 .project-title {
     font-size: 2.5rem;
     font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
-    color: black;
+    color: white;
     text-align: right;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.8px;
     margin-top: 7rem;
     padding-bottom: 3rem;
+    font-weight: 400;
+    transform: scale(1.1, 0.9);
 }
 
 .project-list {
@@ -26,13 +34,10 @@
     align-items: flex-start;
     list-style: none;
     flex-wrap: wrap;
-    padding: 0;
-    margin-bottom: 4rem;
 }
 
 .project-item {
     background-color: white;
-    border-bottom: 4px solid black;
     cursor: pointer;
     position: relative;
     width: 25rem;
@@ -47,6 +52,7 @@
 
 .project-item:hover .overlay {
     opacity: 1;
+    border-bottom: 4px solid white;
 }
 
 .project-link {

@@ -6,6 +6,8 @@ import Jumbotron from "./jumbotron/Jumbotron";
 import About from "./about-me/About";
 import Project from "./project/Project";
 import Contact from "./contact/Contact";
+import Education from "./education/Education";
+import Skills from "./skills/Skills";
 
 class App extends Component {
   render() {
@@ -14,6 +16,8 @@ class App extends Component {
         <Nav/>
         <Jumbotron/>
         <About/>
+        <Education/>
+        <Skills/>
         <Project/>
         <Contact/>
       </div>

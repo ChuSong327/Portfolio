@@ -6,9 +6,15 @@ class Jumbotron extends Component {
     render(){
         return(
             <div className="jumbotron">
-                <h1 className="heading-name">Hello, I am Chu</h1>
-                <h2 className="heading-description">I am a Full Stack Developer</h2>
-                <button id="button-portfolio">See my Portfolio</button>
+                <h1 className="heading-name">Chuchu Song</h1>
+                <h2 className="heading-description">A Full Stack Developer in San Francisco Bay Area</h2>
+                <div className="button">
+                    <button id="button-portfolio">See my Portfolio</button>
+                    <a href="https://res.cloudinary.com/chu327/image/upload/v1533749114/portfolio/Resume_Chuchu_Song.pdf" download target="_blank" rel="noopener noreferrer">
+                        <button id="button-portfolio">Download my resume</button>
+                    </a>
+                </div>
+                
             </div>
         )
     }
