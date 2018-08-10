@@ -5,7 +5,7 @@ class About extends Component {
     render(){
         return(
             <div className="about" id="about">
-                <img className="about-image" src="https://res.cloudinary.com/chu327/image/upload/v1533689080/portfolio/20170423_105639_HDR.jpg"/>
+                <img className="about-image" src="https://res.cloudinary.com/chu327/image/upload/v1533689080/portfolio/20170423_105639_HDR.jpg" alt="profile"/>
                 <div className="about-info">
                     <h3 className="about-title">About Me</h3>
                     <p className="about-description">

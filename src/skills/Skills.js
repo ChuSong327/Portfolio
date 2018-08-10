@@ -11,6 +11,7 @@ class Skills extends Component {
                 </h3>
                 <div className="skills-list">
                     <i className="skills-item devicon-javascript-plain colored"></i>
+                    <i class="skills-item devicon-typescript-plain colored"></i>
                     <i className="skills-item devicon-nodejs-plain colored"></i>
                     <img className="skills-image" src="https://res.cloudinary.com/chu327/image/upload/v1533758068/portfolio/angular.png" alt="Angular"/>
                     <i className="skills-item devicon-html5-plain-wordmark colored"></i>

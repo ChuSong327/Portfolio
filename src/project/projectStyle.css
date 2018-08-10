@@ -53,7 +53,9 @@
 .project-item:hover .overlay {
     opacity: 1;
     border-bottom: 4px solid white;
+    transition: 0.5s ease;
 }
+
 
 .project-link {
     text-decoration: none;

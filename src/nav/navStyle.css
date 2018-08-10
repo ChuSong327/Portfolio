@@ -1,9 +1,15 @@
+@keyframes slideIn {
+    0% { width: 0;}
+    50% { width: 75px; }
+    100% { width: 150px; }
+} 
 .navbar-side {
     background-color: black;
     height: 100%;
-    width: 150px;
     position: fixed;
     z-index: 1000;
+    animation-name: slideIn;
+    animation-duration: .1s;
 }
 
 .navbar-list {
@@ -27,14 +33,14 @@
     margin: 0;
     padding: 1rem;
     display: inline-block;
-    background-color: black;
     cursor: pointer;
     text-decoration: none;
 }
+
 .navbar-button:hover {
     background-color: white;
     color: black;
-    width: 86%;
+    width: 87%;
 }
 
 #button-menu {
