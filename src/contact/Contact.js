@@ -5,7 +5,7 @@ import "./contactStyle.css";
 class Contact extends Component {
     render(){
         return(
-            <div className="contact">
+            <div className="contact" id="contact">
                 <h2 className="contact-title">Contact Me</h2>
                 <div className="contact-info">
                     <div className="contact-social">
@@ -39,7 +39,7 @@ class Contact extends Component {
                         </table>
                     </div>
                     <div className="contact-resume">
-                        <a href="https://res.cloudinary.com/chu327/image/upload/v1533749114/portfolio/Resume_Chuchu_Song.pdf" download target="_blank" rel="noopener noreferrer">
+                        <a href="../../public/Resume_Chuchu_Song.pdf" download target="_blank" rel="noopener noreferrer">
                             <button className="contact-button">Download My Resume</button>
                         </a>
                     </div>

@@ -4,7 +4,7 @@ import "./projectStyle.css"
 class Project extends Component {
     render(){
         return(
-            <div className="project">
+            <div className="project" id="project">
                 <h2 className="project-title">My Project</h2>
                 <div className="project-list">
                     <div className="project-item">

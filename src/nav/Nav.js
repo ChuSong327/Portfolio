@@ -41,22 +41,22 @@ class Nav extends Component {
                                           &times;
                                         </button>
                                         <div className="navbar-list">
-                                            <a className="navbar-button">
+                                            <a className="navbar-button" href="#">
                                               HOME
                                             </a>  
-                                          <a className="navbar-button">
+                                          <a className="navbar-button" href="#about">
                                             ABOUT
                                           </a>
-                                          <a className="navbar-button">
+                                          <a className="navbar-button" href="#education">
                                             Education
                                           </a>
-                                          <a className="navbar-button">
+                                          <a className="navbar-button" href="#project">
                                             PROJECT
                                           </a>
-                                          <a className="navbar-button">
+                                          <a className="navbar-button" href="#skills">
                                             Skills
                                           </a>
-                                          <a className="navbar-button">
+                                          <a className="navbar-button" href="#contact">
                                             contact
                                           </a>
                                         </div>

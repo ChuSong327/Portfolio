@@ -5,6 +5,7 @@
     align-items: center;
     background-color: rgb(255,255,255);
     padding: 7rem 0 5rem 0;
+    position: relative;
 }
 
 .contact-title {
@@ -43,6 +44,7 @@
     color: black;
     font-size: 5rem;
 }
+
 .contact-linkedIn {
     font-size: 3rem;
     color: white;

@@ -29,6 +29,7 @@
     display: inline-block;
     background-color: black;
     cursor: pointer;
+    text-decoration: none;
 }
 .navbar-button:hover {
     background-color: white;

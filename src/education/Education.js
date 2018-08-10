@@ -5,9 +5,7 @@ import "./educationStyle.css";
 class Education extends Component {
     render(){
         return(
-            <div className="experience">
-                
-                {/* <div className="v1"></div> */}
+            <div className="experience" id="education">
                 <div className="experience-education">
                     <h3 className="education-title">Education</h3>
                     <div className="education-section">

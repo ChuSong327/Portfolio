@@ -4,15 +4,23 @@ import "./aboutStyle.css";
 class About extends Component {
     render(){
         return(
-            <div className="about">
+            <div className="about" id="about">
                 <img className="about-image" src="https://res.cloudinary.com/chu327/image/upload/v1533689080/portfolio/20170423_105639_HDR.jpg"/>
                 <div className="about-info">
                     <h3 className="about-title">About Me</h3>
                     <p className="about-description">
-                        Lorem ipsum daolor sit amet, consectetur adipiscing elit. Phasellus ultrices, nulla et egestas venenatis, urna ante tincidunt erat, vitae lacinia ante urna dignissim purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam diam purus, facilisis eu placerat vel, egestas vel massa. Phasellus pharetra urna at sem convallis bibendum. Fusce sed leo quis purus luctus tempus. Ut ornare mattis justo.
+                        I immigrated to the United States in 2012 and started my higher education at UC Davis with a major in Managerial Economics. 
+                        The four-year immersion in the business education has very well developed my business acumen and abilities in 
+                        marketing, finance, and operation. 
+                        I have interned at State Street Corporation and Adobe Systems as a financial analyst. 
+                        The business background enables me to observe and think from perspectives of both the client and the organization.
                         <br/>
                         <br/>
-                        Pellentesque lectus libero, lobortis sed quam in, congue elementum tellus. Vestibulum dui enim, aliquet in tellus id, luctus tristique velit. Mauris augue sapien, condimentum sed ligula sit amet, facilisis aliquet nulla. Donec sed congue tellus, quis efficitur nisl. Maecenas at sapien orci. Donec dapibus pellentesque orci, nec egestas sapien ultricies eu. Morbi eu sem commodo, pellentesque massa quis.
+                        Now, I have transitioned to be a full stack developer.
+                        My interest in programming originated from my past e-commerce fashion business plan.
+                        Even though due to many constraints, the business didn't get started, 
+                        I did find myself interested in website development during the process.
+                        I like this new role and expect further and sustaining growth in this new role. 
                     </p>
                 </div>
             </div>
