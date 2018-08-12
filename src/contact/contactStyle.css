@@ -82,6 +82,7 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all .5s ease;
 }
 
 .contact-button:hover {

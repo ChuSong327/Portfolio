@@ -10,6 +10,7 @@
     z-index: 1000;
     animation-name: slideIn;
     animation-duration: .1s;
+    transition: all .5s ease-in-out;
 }
 
 .navbar-list {
