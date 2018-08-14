@@ -13,6 +13,7 @@ class Skills extends Component {
                     <i className="skills-item devicon-javascript-plain colored"></i>
                     <i className="skills-item devicon-typescript-plain colored"></i>
                     <i className="skills-item devicon-nodejs-plain colored"></i>
+                    <i class="skills-item devicon-express-original colored"></i>
                     <i className="skills-item devicon-react-original-wordmark colored"></i>
                     <img className="skills-image" src="https://res.cloudinary.com/chu327/image/upload/v1534085991/portfolio/angular_1.png" alt="mui"/>
                     <i className="skills-item devicon-html5-plain-wordmark colored"></i>
