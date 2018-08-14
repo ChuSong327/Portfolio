@@ -4,7 +4,7 @@
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 7rem 0;
+    width: 100%;
 }
 
 .about-image {
@@ -12,7 +12,6 @@
     width: 400px;
     margin-right: 5rem;
 }
-
 
 .about-info {
     width: 500px;
@@ -37,3 +36,19 @@
     font-weight: 400;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .about {
+        text-align: left;
+    }
+    .about-image {
+        margin-right: 0;
+        height: 35rem;
+        width: 100%;
+    }
+    .about-title {
+        font-size: 2rem;
+    }
+    .about-description {
+        padding-left: 0.5rem;
+    }
+}

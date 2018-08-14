@@ -35,3 +35,19 @@
     font-size: 5rem;
     padding: 2rem;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .skills-title {
+        font-size: 2rem;
+    }
+    .skills-item {
+        font-size: 3rem;
+    }
+    .skills-image {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .skills-list {
+        width: 90%;
+    }
+}

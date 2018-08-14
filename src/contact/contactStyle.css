@@ -6,6 +6,7 @@
     background-color: rgb(255,255,255);
     padding: 7rem 0 5rem 0;
     position: relative;
+    width: 100%;
 }
 
 .contact-title {
@@ -95,3 +96,12 @@
     outline: 0;
 } 
 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .contact-title {
+        font-size: 2rem;
+    }
+    .contact-detail {
+        font-size: 1.4rem;
+    }
+}

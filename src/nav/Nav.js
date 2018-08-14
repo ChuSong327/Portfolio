@@ -41,7 +41,7 @@ class Nav extends Component {
                                           &times;
                                         </button>
                                         <div className="navbar-list">
-                                            <a className="navbar-button" href="/Portfolio">
+                                            <a className="navbar-button" href="/">
                                               HOME
                                             </a>  
                                           <a className="navbar-button" href="#about">

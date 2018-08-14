@@ -11,6 +11,7 @@
     background-size: cover;
     background-attachment: fixed;
     padding: 3rem 0 8rem 0;
+    width: 100%;
 }
 
 .project-title {
@@ -109,5 +110,10 @@
     font-weight: 300;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .project-title {
+        font-size: 2rem;
+    }
+}
 
 

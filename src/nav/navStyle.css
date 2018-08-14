@@ -3,6 +3,7 @@
     50% { width: 75px; }
     100% { width: 150px; }
 } 
+
 .navbar-side {
     background-color: black;
     height: 100%;
@@ -77,4 +78,16 @@
     transform: translateX(0%);
     -webkit-transition: 300ms ease;
     transition: 300ms ease;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .navbar-button {
+        font-size: 0.7rem;
+    }
+    .navbar-side {
+      padding-top: 3rem;
+    }
+    .navbar-list {
+        padding-top: 3rem;
+    }
 }

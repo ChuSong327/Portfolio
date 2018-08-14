@@ -10,12 +10,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 23rem 0 30rem 0;
+    padding: 23rem 0rem 30rem 0rem;
+    width: 100%;
+    margin: 0;
 }
 
 .heading-name {
     font-family: 'Heebo', sans-serif;
-    font-size: 60px;
+    font-size: 6rem;
     margin-bottom:0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -30,7 +32,8 @@
 }
 
 .button {
-    width: 30%;
+    width: 70%;
+    margin-top: 15rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -47,7 +50,7 @@
     font-weight:300;
     letter-spacing: 1.2px;
     transform: scale(1, 1.2);
-    margin-top: 10rem;
+   
     cursor: pointer;
     transition: all .5s ease;
 }
@@ -61,4 +64,16 @@
     border-width: 1px;
     border-color: black;
     color: black;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .heading-name {
+        font-size: 3rem;
+    }
+    .heading-description {
+        font-size: 1.3rem;
+    }
+    #button-portfolio {
+        font-size: 0.7rem;
+    }
 }

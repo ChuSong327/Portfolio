@@ -38,7 +38,7 @@ class Project extends Component {
                             <h4 className="project-name">Nunu Nails</h4>
                             <div className="overlay">
                                 <p className="overlay-text">
-                                    A full-stack project
+                                    A MEAN/full-stack project designed for a local Salon to sell customer products online. Project is still in developing process.
                                 </p>
                             </div>
                         </a>
