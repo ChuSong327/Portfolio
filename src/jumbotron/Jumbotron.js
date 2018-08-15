@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./jumbotronStyle.css";
 
 class Jumbotron extends Component {
@@ -12,7 +11,7 @@ class Jumbotron extends Component {
                     <a href="#project">
                         <button id="button-portfolio">See my Portfolio</button>
                     </a>
-                    <a href="https://res.cloudinary.com/chu327/image/upload/v1533749114/portfolio/Resume_Chuchu_Song.pdf" download target="_blank" rel="noopener noreferrer">
+                    <a href="https://res.cloudinary.com/chu327/image/upload/v1534371032/portfolio/Resume.pdf" download target="_blank" rel="noopener noreferrer">
                         <button id="button-portfolio">Download my resume</button>
                     </a>
                 </div>

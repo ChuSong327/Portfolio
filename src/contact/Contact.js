@@ -39,12 +39,11 @@ class Contact extends Component {
                         </table>
                     </div>
                     <div className="contact-resume">
-                        <a href="../../public/Resume_Chuchu_Song.pdf" download target="_blank" rel="noopener noreferrer">
+                        <a href="https://res.cloudinary.com/chu327/image/upload/v1534371032/portfolio/Resume.pdf" download target="_blank" rel="noopener noreferrer">
                             <button className="contact-button">Download My Resume</button>
                         </a>
                     </div>
                 </div>
-                
             </div>
         )
     }
