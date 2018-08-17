@@ -32,7 +32,7 @@ class Project extends Component {
                         </a>
                     </div>
                     <div className="project-item">
-                        <a className="project-link" href="https://github.com/ChuSong327/NunuNails-2.0" target="_blank" rel="noopener noreferrer">
+                        <a className="project-link" href="http://www.nununails.com/" target="_blank" rel="noopener noreferrer">
                             <img className="project-image" src="https://res.cloudinary.com/chu327/image/upload/v1533710804/Nunu%20Nails/Screen_Shot_2018-08-07_at_11.45.54_PM.png" alt="Nunu Nails"/>
                             <br/>
                             <h4 className="project-name">Nunu Nails</h4>
